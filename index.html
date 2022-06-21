@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6471f91182.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#porfolio">Porfolio</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#Home">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#porfolio">Porfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <section id="home">
         <div class="main">
             <h1 class="headings">I AM <br> BADARA DIA</h1>
@@ -29,27 +40,25 @@
     <section id="about">
         <h1 class="headings">ABOUT ME</h1>
         <div id="pic">
-            <img src="./Pictures/papin.jpg" alt="My head shot">
+            <img src="./pictures/papin.jpg" alt="My head shot">
             <div id="intro">
                 <h2>BADARA DIA</h2>
-                <p>I am Badara Dia a teacher/coach for over 20 years of experience at youth
-                    level. I am a United Soccer "B" and "Y" license certified coach since 2009.
-                    Additionally, I have been a youth soccer tutor for small groups and one on
-                    one training for all skill building for the last 15 years. I am actually a
-                    founder/president of youth soccer acadeny PUSH (Papadia United Soccer Heroes) boys and girls in Mali. The organization has 371 players registered. I have decided to take on new passion in addidition to my coaching experience. I am very excited to face this new challenge for career. I have always been inspired by the use of technology. In particular computer and the ability of the use. I have alway been extremely curiosity about the power of coding and creativity and how technology works. Now I am considing myself to be a certified professional web designare soon. Certification from George Washington bootcamp in html, css, and
-                    javascripts. Another word, web development.</p>
+                <p>I am Badara Dia, a professional, an educator for over 15 years, a coach for over 20 years of experience at youth level all across the world. I have been a teacher for Arlington County Public Schools since 2001 at elematary and middle school grade level. I am currently an Instructional assistant at a middle school working with small groups of students daily and supporting classroom lead teachers in all subject areas. 
+                Additionally, I am a United Soccer Federation "B" and "Y" license certified coach since 2009. I coached at select soccer level and academy since 2004. I worked with the youths age 4 through high school level. I was a high varsity school coach for 6 years, from 2009-2015. I have always tutor soccer lesson for player skill development for small groups and one on one.
+                I am actually the founder/president of youth soccer acadeny PUSH (Papadia United Soccer Heroes) consist of boys and girls in Mali. The organization has 371 players registered. 
+                I am soon to be call an aspiring Web Developer. I am currently registered at GWU for Full-stack Dev. I will be certified in less than 2 months time as a full-stack developer. Computer and technology have always been a passion for me. Since I started this course, coding has been another fasinating interest for me. I am enjoying that  new passion using my proplem solving skills to complete challenges, activities and assignments. I am very excited and looking forward to this call this new skills my career.</p>
             </div>
         </div>
     </section>
     <section id="porfolio">
-        <h1 class="headings">PORFOLIO</h1>
+        <h1 class="headings">PORTFOLIO</h1>
         <div class="gallery">
-            <img src="./Pictures/comp.jpg" alt="my working tools">
-            <img src="./Pictures/compu.jpg" alt="my coding tools">
-            <img src="./Pictures/comput.jpg" alt="my work space">
-            <img src="./Pictures/compute.jpg" alt="my new hobby">
-            <img src="./Pictures/computer.jpg" alt="work in progress">
-            <img src="./Pictures/coomputer1.jpg" alt="computer skills">
+            <img src="./pictures/comp.jpg" alt="my working tools">
+            <img src="./pictures/compu.jpg" alt="my coding tools">
+            <img src="./pictures/comput.jpg" alt="my work space">
+            <img src="./pictures/compute.jpg" alt="my new hobby">
+            <img src="./pictures/computer.jpg" alt="work in progress">
+            <img src="./pictures/coomputer1.jpg" alt="computer skills">
         </div>
     </section>
 
@@ -57,16 +66,34 @@
         <h1 class="headings">PROJECTS</h1>
         <div class="row">
             <div class="box">
-                <h1 class="headings">HTML</h1>
-                <p>Watch That Box, Style This-Page</p>
+                <h1 class="headings">Font-End Web Development</h1>
+                <p>Code Refoctor<br>Watch That Box<br> Style This-Page <br>Run-Buddy<br>Student Bio <br>Spot The Differences</p>
+                <a href="https://davepaulsanders.github.io/Project-1/"> Interactive Front-End Project</a>
+                <a href="https://github.com/davepaulsanders/Project-1"> Github Repo</a>
+
+                 <a href="https://papacode79.github.io/Portfolio/Portfolio"> Professional Portfolio</a>
+                <a href="https://github.com/PapaCode79/Portfolio"> Github Repo</a>
+
+                <a href="https://github.com/PapaCode79/PasswordGenerator"> Password-Generator</a>
+                <a href="  https://papacode79.github.io/PasswordGenerator/"> Github Repo</a>         
             </div>
             <div class="box">
-                <h1 class="headings">CSS</h1>
-                <p>Run-Buddy, Student Bio, Spot The Differences</p>
-            </div>
-            <div class="box">
-                <h1 class="headings">JavaScript</h1>
-                <p>Horiseon, Portfolio</p>
+                <h1 class="headings">Back-End Web Development</h1>
+                
+                <a href="https://papacode79.github.io/code-quiz/"> Code Quiz</a>
+                <a href="https://github.com/PapaCode79/code-quiz.git"> Github Repo</a>
+
+                <a href="https://papacode79.github.io/Weather_dashboard/"> Weather Dashboard</a>
+                <a href="https://github.com/PapaCode79/Weather_dashboard"> Github Repo</a>
+
+                 <a href="https://github.com/PapaCode79/Work-day-schedule"> Work-Day Scheduler</a>
+                <a href=" https://papacode79.github.io/Work-day-schedule/"> Github Repo</a>
+
+                <a href="https://limitless-brushlands-58455.herokuapp.com/"> Note Taker</a>
+                <a href="https://github.com/PapaCode79/Note-Taker"> Github Repo</a>
+
+                <a href="https://uplift-srb.herokuapp.com/login"> Interactive Full-Stack Project</a>
+                <a href="https://github.com/PapaCode79/UpLift"> Github Repo</a>
             </div>
         </div>
     </section>
@@ -81,9 +108,8 @@
     </section>
     <!-- footer-->
     <footer class="footer">
-        <h2>Made with <i class="fa-solid fa-heart"></i> by Badara Dia</h2>
+        <h2>Made with<i class="fa-solid fa-heart"></i> by Badara Dia</h2>
         &copy; 2022 Services, Inc.    
-    </footer>
-        
+    </footer>       
 </body>
 </html>
